@@ -1,4 +1,4 @@
-# DummyRepo-Rust 🦀
+# Demo-Repo-Rust 🦀
 
 ## Overview
 
