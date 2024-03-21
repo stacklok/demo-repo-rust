@@ -1,6 +1,6 @@
 # Use the official Rust image as a builder stage
 # to compile our application
-FROM rust:1.62
+FROM rust:latest
 
 WORKDIR /my-rust-app
 
