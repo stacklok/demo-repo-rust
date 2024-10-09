@@ -41,7 +41,7 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           context: .
-          file : Dockerfile.static
+          file: Dockerfile.static
 
       - name: Attest image
         uses: actions/attest-build-provenance@v1.4.1

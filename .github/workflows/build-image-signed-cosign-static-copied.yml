@@ -8,7 +8,6 @@ env:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -47,8 +46,7 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           context: .
-          file : Dockerfile.static
-
+          file: Dockerfile.static
 
       - name: Sign the published Docker image
         env:
